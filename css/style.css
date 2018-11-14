@@ -1,0 +1,82 @@
+body{
+    margin-left: 60px;
+    margin-right: 60px;
+    background-color: black;
+    color: antiquewhite;
+    font-family: 'Mali', cursive;
+}
+
+*{
+    scroll-behavior: smooth;
+}
+
+/* nav style*/
+.nav{
+ word-spacing: 30px;
+}
+
+header {
+    background-color:black;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 50px;
+}
+
+a:hover{
+    color: red;
+}
+
+h2{
+    color: black;
+    font-size: 30px;
+}
+
+.one{
+    display: grid;
+    grid-template-columns: 800px 1fr;
+}
+
+.aboutMe {
+    padding: 40px;
+}
+
+
+
+.images img{
+    /* float: right; */
+    width: 400px;
+    height: 300px;
+}
+
+.images {
+    float: right;
+}
+
+.pics img{
+    width: 300px;
+    height: 300px;
+}
+
+.two {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.three img{
+    height: 300px;
+    width: 300px;
+}
+
+.three{
+    display: grid;
+    grid-template-columns: 1fr 800px;
+}
+
+h2 {
+    text-decoration: underline;
+    color:aqua;
+}
